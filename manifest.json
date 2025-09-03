@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AI Injector",
+  "version": "1.0",
+  "description": "Allows you to add AI into any webpage.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+  }
+}
